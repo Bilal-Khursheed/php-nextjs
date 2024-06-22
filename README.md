@@ -55,7 +55,7 @@ The Contact Form Plugin is a custom WordPress plugin that provides a REST API en
      ```php
      // Register REST API endpoint
      function register_contact_form_endpoint() {
-         register_rest_route( 'your_name/v1', '/contact-form', array(
+         register_rest_route( 'bilal/v1', '/contact-form', array(
              'methods' => 'POST',
              'callback' => 'handle_contact_form_submission',
              'permission_callback' => '__return_true',
