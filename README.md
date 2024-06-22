@@ -1,6 +1,6 @@
 # Landing Page Project
 
-This project includes a WordPress plugin and a Next.js web application designed for [briefly describe purpose].
+This project includes a WordPress plugin and a Next.js web application designed for Job Test.
 
 ## Server (WordPress Plugin)
 
@@ -125,7 +125,7 @@ The Contact Form Plugin is a custom WordPress plugin that provides a REST API en
 
 ### Next.js App
 
-The Next.js web application serves as the frontend landing page for [project purpose].
+The Next.js web application serves as the frontend landing page for Job Test.
 
 #### Installation
 
