@@ -1,4 +1,4 @@
-# [Your Name] Project
+# Landing Page Project
 
 This project includes a WordPress plugin and a Next.js web application designed for [briefly describe purpose].
 
