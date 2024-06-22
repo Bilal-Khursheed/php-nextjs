@@ -114,7 +114,6 @@ The Contact Form Plugin is a custom WordPress plugin that provides a REST API en
          return new WP_REST_Response( array( 'message' => 'Form submission successful.' ), 200 );
      }
      ```
-   - Replace `your_name` in the endpoint URL with your actual name or any preferred identifier.
    - Save and activate the snippet.
 
 #### Usage
