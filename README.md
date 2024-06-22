@@ -118,8 +118,7 @@ The Contact Form Plugin is a custom WordPress plugin that provides a REST API en
 
 #### Usage
 
-- Access the form submission endpoint at `/your_name/v1/contact-form`.
-- [Include any additional usage instructions or configuration details.]
+- Access the form submission endpoint at `/bilal/v1/contact-form`.
 
 ## Web (Next.js Application)
 
@@ -137,8 +136,4 @@ The Next.js web application serves as the frontend landing page for Job Test.
 
 - Start the development server with `npm run dev`.
 - Open your browser and visit `http://localhost:3000` to view the application.
-
-## Additional Notes
-
-- [Include any additional information or special instructions here.]
 
