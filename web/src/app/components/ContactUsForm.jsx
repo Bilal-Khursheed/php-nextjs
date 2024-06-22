@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import styles from "../page.module.css";
 
 const ContactUsForm = () => {
+    const apiUrl = 'https://incredibleupdates.com/wp-json/bilal/v1/contact-form';
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
@@ -13,7 +14,7 @@ const ContactUsForm = () => {
 
         try {
             const formData = { name, email, message };
-            const res = await fetch('https://incredibleupdates.com/wp-json/bilal/v1/contact-form', {
+            const res = await fetch(apiUrl, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

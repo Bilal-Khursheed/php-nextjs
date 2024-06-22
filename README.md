@@ -131,6 +131,8 @@ The Next.js web application serves as the frontend landing page for Job Test.
 1. Clone the repository to your local machine.
 2. Navigate to `web/nextjs-app/` directory.
 3. Run `npm install` to install dependencies.
+4. Open file `web/src/app/components/ContactUsForm.jsx` and replace variable `apiUrl` with your url e.g `{your-site-urk}/wp-json/bilal/v1/contact-form`.
+5. Save Changes.
 
 #### Development
 
