@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import diamondImg from "../assets/Group 433.png";
 import YouTubePlayer from "./components/YouTubePlayer";
 import operationImg from "../assets/image 1.png";
-import ContactUsForm from "./components/ContactUsForm";
+import ContactUsForm from "./components/contactUsForm/ContactUsForm";
 
 const services = [
   {

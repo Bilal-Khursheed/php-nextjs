@@ -1,9 +1,9 @@
 "use client"
 import React, { useState } from 'react';
-import styles from "../page.module.css";
+import styles from "./ContactUsForm.module.css";
 
 const ContactUsForm = () => {
-    const apiUrl = 'https://incredibleupdates.com/wp-json/bilal/v1/contact-form';
+    const apiUrl = 'http://localhost/wordpress/wp-json/bilal/v1/contact-form';
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
