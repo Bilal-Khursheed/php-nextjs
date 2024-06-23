@@ -1,0 +1,36 @@
+/* Carousel styles */
+.mainCarousel {
+    background: url("../../../assets/carasoul-img.jpeg") lightgray;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 600px;
+    height: 747px;
+    /* Adjust height as needed */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.carouselContent {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    text-align: center;
+    color: var(--white);
+    font-family: "Univers LT Std";
+    padding: 40px 0px;
+}
+
+.carouselContent>h1 {
+    color: var(--white);
+    font-size: 64px;
+    line-height: 100%;
+}
+
+.carouselContent>p {
+    color: var(--white);
+    font-size: 20px;
+    line-height: 120%;
+}

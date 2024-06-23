@@ -1,0 +1,64 @@
+.operationContainer {
+    display: flex;
+    margin: 0 15%;
+    gap: 10px;
+}
+
+.operationContent {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.operationSubHeading {
+    color: var(--black);
+    font-family: "Univers 65";
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 700;
+}
+
+.operationDesc {
+    color: var(--black);
+    font-family: "Univers 55";
+    font-size: 16px;
+    line-height: 140%;
+    margin: 0 !important;
+}
+
+.operationBtn {
+    color: var(--white);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    background: var(--red);
+    width: 243px;
+    height: 64px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+/* Mobile view  */
+@media screen and (max-width: 425px) {
+    .operationContainer {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .operationContainer div>img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .operationContainer {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .operationContainer div>img {
+        width: 100%;
+    }
+
+}
